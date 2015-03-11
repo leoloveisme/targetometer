@@ -1,8 +1,5 @@
-<table width=100%>
-<tr>
-<td align=right>Hello, <b>guest</b>. <a href="">Register</a> <a href="">Login</a> </td>
-</tr>
-</table>
+<?php include ("header.php"); ?>
+<br><br>
 <table width=100%>
 <tr>
 <td width=10%></td>
@@ -69,6 +66,8 @@
 <OPTION>2121</OPTION>
 </SELECT>
 * (date and time attributes aren't compulsary)
+<br><br>
+<button>+</button>
 <br><br>
 <button>Save</button>
 </td>
@@ -142,7 +141,9 @@
 <br><br>
 1. Meet up with Mr. X <a href="">Edit</a> <a href="">Complete | Archive</a>
 <br><br>
-<span style="background-color: blue; color:white; font-weight:bold">business;</span> <span style="background-color: blue; color:white; font-weight:bold">businessman;</span> <span style="background-color: red; color:white; font-weight:bold">important, urgent;</span>
+Tags: <font color=gray>München, </font> <font color=gray>Munich, </font> <font color=gray>Germany, </font> <font color=gray>Deutschland, </font> <button>+</button>
+<br><br>
+<span style="background-color: blue; color:white; font-weight:bold">business; </span><img src=images/delete.png> <span style="background-color: blue; color:white; font-weight:bold">businessman;</span> <img src=images/delete.png> <span style="background-color: red; color:white; font-weight:bold">important, urgent;</span> <img src=images/delete.png> <button>+</button>
 <br><br>
 Note:
 <br><br>
@@ -152,7 +153,9 @@ Note:
 <br><br>
 2. <textarea>Buy an apartment in Barcelona, Spain by 1 July 2015</textarea> <a href="">Save</a> <a href="">Complete | Archive</a>
 <br><br>
-<span style="background-color: orange; color:white; font-weight:bold">personal;</span> <span style="background-color: red; color:white; font-weight:bold">money;</span> <span style="background-color: yellow; color:white; font-weight:bold">important,  not urgent;</span>
+Tags: <button>+</button>
+<br><br>
+<span style="background-color: orange; color:white; font-weight:bold">personal;</span> <img src=images/delete.png> <span style="background-color: red; color:white; font-weight:bold">money;</span> <img src=images/delete.png> <span style="background-color: yellow; color:green; font-weight:bold">important,  not urgent;</span> <img src=images/delete.png> <button>+</button> 
 <br><br>
 Note:
 <br><br>
@@ -162,7 +165,9 @@ Note:
 <br><br>
 3. Publish my book <a href="">Edit</a> <a href="">Complete | Archive</a>
 <br><br>
-<span style="background-color: blue; color:white; font-weight:bold">business;</span> <span style="background-color: blue; color:white; font-weight:bold">businessman;</span> <span style="background-color: red; color:white; font-weight:bold">important, urgent;</span>
+Tags: <font color=gray>book, </font><button>+</button>
+<br><br>
+<span style="background-color: blue; color:white; font-weight:bold">business;</span> <img src=images/delete.png> <span style="background-color: blue; color:white; font-weight:bold">businessman;</span> <img src=images/delete.png> <span style="background-color: red; color:white; font-weight:bold">important, urgent;</span> <img src=images/delete.png> <button>+</button> 
 <br><br>
 Note:
 <br><br>
