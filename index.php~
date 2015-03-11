@@ -1,3 +1,4 @@
+<a name="top"></a>
 <?php include ("header.php"); ?>
 <br><br>
 <table width=100%>
@@ -74,12 +75,14 @@
 </tr>
 </table>
 <br><hr width=100%>
-<br><br>
-<table width=100%>
+<br>
+<table width=100% border=0>
 <tr>
 <td width=5%></td>
-<td width=95%>
-<b>Goals</b> <SELECT NAME="">
+<td width=49% valign=top>
+<b>Goals</b> 
+<br><br>
+<SELECT NAME="">
 <OPTION SELECTED VALUE="">Today</OPTION>
 <OPTION>This week</OPTION>
 <OPTION>This month</OPTION>
@@ -151,9 +154,9 @@ Note:
 <br><br>
 <button>Save</button>
 <br><br>
-2. <textarea>Buy an apartment in Barcelona, Spain by 1 July 2015</textarea> <a href="">Save</a> <a href="">Complete | Archive</a>
+2. Buy an apartment in Barcelona, Spain by 1 July 2015 <a href="">Save</a> <a href="">Complete | Archive</a>
 <br><br>
-Tags: <button>+</button>
+Tags: <font color=gray>Barcelona, </font> <font color=gray>Spain, </font> <font color=gray>apartment, </font> <button>+</button>
 <br><br>
 <span style="background-color: orange; color:white; font-weight:bold">personal;</span> <img src=images/delete.png> <span style="background-color: red; color:white; font-weight:bold">money;</span> <img src=images/delete.png> <span style="background-color: yellow; color:green; font-weight:bold">important,  not urgent;</span> <img src=images/delete.png> <button>+</button> 
 <br><br>
@@ -171,21 +174,26 @@ Tags: <font color=gray>book, </font><button>+</button>
 <br><br>
 Note:
 <br><br>
-<textarea>Currently negotiating terms with editor</textarea>
-<br><br>
-<button>Save</button>
+Currently negotiating terms with editor
 </td>
-</tr>
-</table>
-<br><hr width=100%>
-<br><br>
-<table width=100%>
-<tr>
-<td width=5%></td>
-<td width=95%>
+<td width=6% valign=top>
+<td width=35% valign=top>
 <b>Drag and dropable calendar</b> (where you can drop your targets into) <a href="">Expand</a>
 <br><br>
 <hr width=100%>
+<br>
+Today's
+<br>
+Weekly
+<br>
+Monthly
+<br>
+Yearly
+<br><br>
+<a href="">Collapse</a>
+<br><br>
+<hr width=100%>
+<br>
 <b>Sorting tasks quadrant</b> <a href="">Expand</a>
 <br><br>
 <hr width=100%>
@@ -214,5 +222,9 @@ Note:
 <a href="">Add other method, indicator or tool</a>
 <br><br>
 </td>
+
+
+<td width=5%></td>
 </tr>
 </table>
+<?php include ("footer.php"); ?>
