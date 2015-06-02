@@ -88,7 +88,7 @@
 			<a href="">Collapse</a><br />
 			&nbsp;
 			<hr width="100%" /><br />
-			<b>Sorting tasks quadrant</b> <a href="">Expand</a><br />
+			<b>Eisenhower quadrant</b> <a href="">Expand</a><br />
 			&nbsp;
 			<hr width="100%" /> <b>GTD</b> <a href="">Expand</a><br />
 			&nbsp;
