@@ -5,7 +5,7 @@
 <br><br>
 Search <input>
 </td>
-<td align=right>
+<td align=right valign=top>
 <?php 
 $current_page_name=basename($_SERVER['PHP_SELF']);
 echo 'Hello, <b>guest</b>. ';
