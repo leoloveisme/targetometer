@@ -70,7 +70,7 @@ $(document).ready(function(){
 <a href="">Completed goals & tasks</a>
 <br>
 <a href="">Archived goals & tasks</a>
-<br>
+<br><br>
 Calendar module
 <br><br>
 <font size=2><a href=""><< 2015</a> <a href="">< March</a> 2016 <a href="">May ></a> <a href="">2017 >></a></font>

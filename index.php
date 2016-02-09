@@ -27,7 +27,7 @@ $(document).ready(function(){
 <table width="100%">
 	<tbody>
 		<tr>
-			<td width="10%">&nbsp;</td>
+			<td width="20%">&nbsp;</td>
 			<td width="70%"><b>Enter your goal | task | target</b><br />
 			<br />
 			<textarea></textarea> <br><br> <select name=""><option selected="selected" value="">Today</option><option>This week</option><option>This month</option><option>This year</option><option>Other date</option> </select> 
@@ -42,7 +42,7 @@ $(document).ready(function(){
 			Tag: <button>+</button><br />
 			<br />
 			<button>Save</button></td>
-<td width="20%">&nbsp;</td>
+<td width="10%">&nbsp;</td>
 		</tr>
 	</tbody>
 </table>
