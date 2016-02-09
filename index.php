@@ -81,9 +81,48 @@ Calendar module
 			<hr width="100%" /><br />
 			<b>Eisenhower quadrant</b> <a href="">Expand</a><br />
 			&nbsp;
-<hr width="100%" /> <b>GTD</b> <a href="">Expand</a><br />
+<hr width="100%" /> <br> <b>GTD</b> <a href="">Collapse</a><br /><br>
+<input type=radio id="Business" /><b>Business</b>
+<br><br>
+			<input type=radio id="Next actions" />Next actions <a href="">Edit</a> <a href="">Delete</a><br />
+			<br />
+			<input type=radio id="Waiting for" />Waiting for <a href="">Edit</a> <a href="">Delete</a><br />
+			<br />
+			<input type=radio id="Reference / Archive" />Reference / Archive <a href="">Edit</a> <a href="">Delete</a><br />
+			<br />
+			<input type=radio id="Some day / Maybe" />Some day / Maybe <a href="">Edit</a> <a href="">Delete</a><br />
+			<br />
+			<input type=radio id="Completed" />Completed <a href="">Edit</a> <a href="">Delete</a><br />
+			<br />
+			<a href="">Add another element</a><br /><br>
+<input type=radio id="Private" /><b>Private</b>
+<br><br>
+<input type=radio id="Next actions" />Next actions <a href="">Edit</a> <a href="">Delete</a><br />
+			<br />
+			<input type=radio id="Waiting for" />Waiting for <a href="">Edit</a> <a href="">Delete</a><br />
+			<br />
+			<input type=radio id="Reference / Archive" />Reference / Archive <a href="">Edit</a> <a href="">Delete</a><br />
+			<br />
+			<input type=radio id="Some day / Maybe" />Some day / Maybe <a href="">Edit</a> <a href="">Delete</a><br />
+			<br />
+			<input type=radio id="Completed" />Completed <a href="">Edit</a> <a href="">Delete</a><br />
+			<br />
+			<a href="">Add another element</a><br /><br>
+<input type=radio id="Non profit" /><b>Non profit</b>
+<br><br>
+<input type=radio id="Next actions" />Next actions <a href="">Edit</a> <a href="">Delete</a><br />
+			<br />
+			<input type=radio id="Waiting for" />Waiting for <a href="">Edit</a> <a href="">Delete</a><br />
+			<br />
+			<input type=radio id="Reference / Archive" />Reference / Archive <a href="">Edit</a> <a href="">Delete</a><br />
+			<br />
+			<input type=radio id="Some day / Maybe" />Some day / Maybe <a href="">Edit</a> <a href="">Delete</a><br />
+			<br />
+			<input type=radio id="Completed" />Completed <a href="">Edit</a> <a href="">Delete</a><br />
+			<br />
+			<a href="">Add another element</a><br />
 			&nbsp;
-			<hr width="100%" /> <b>Roles tasks</b> <a href="">Collapse</a><br />
+			<hr width="100%" /> <br> <b>Roles tasks</b> <a href="">Collapse</a><br />
 			<br />
 			<input value="Son" /> <a href="">Edit</a> <a href="">Delete</a><br />
 			<br />
@@ -99,7 +138,7 @@ Calendar module
 			<br />
 			<input value="Husband" /> <a href="">Edit</a> <a href="">Delete</a><br />
 			<br />
-			<a href="">Add role</a><br />
+			<a href="">Add another role</a><br />
 			&nbsp;
 			<hr width="100%" />
 			<p><strong>Urgency&nbsp;</strong><a href="">Collapse</a></p>
@@ -113,6 +152,8 @@ Calendar module
 			<p><input value="low" />&nbsp;<a href="">Edit</a>&nbsp;<a href="">Delete</a></p>
 
 			<p><input value="idle" />&nbsp;<a href="">Edit</a>&nbsp;<a href="">Delete</a><br />
+<br>
+<a href="">Add another indicator</a>
 			&nbsp;</p>
 
 			<hr />
@@ -131,7 +172,7 @@ Calendar module
 			<br />
 			Tags: <font color="gray">M&uuml;nchen, </font> <font color="gray">Munich, </font> <font color="gray">Germany, </font> <font color="gray">Deutschland, </font><button>+</button><br />
 			<br />
-			<span style="background-color: blue; color:white; font-weight:bold">business; </span><img src="images/delete.png" /> <span style="background-color: blue; color:white; font-weight:bold">businessman;</span> <img src="images/delete.png" /> <span style="background-color: red; color:white; font-weight:bold">important, urgent;</span> <img src="images/delete.png" /><button>+</button><br />
+			<span style="background-color: blue; color:white; font-weight:bold">business; </span><img src="images/delete.png" /> <span style="background-color: blue; color:white; font-weight:bold">business owner;</span> <img src="images/delete.png" /> <span style="background-color: red; color:white; font-weight:bold">important, urgent;</span> <img src="images/delete.png" /><button>+</button><br />
 			<br />
 			Note:<br />
 			<br />
