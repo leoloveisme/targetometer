@@ -65,8 +65,12 @@ $(document).ready(function(){
 <br>
 <a href="">This year</a>
 <br>
-<a href="">All goals & tasks</a>
-<br><br>
+<a href="">All active goals & tasks</a>
+<br>
+<a href="">Completed goals & tasks</a>
+<br>
+<a href="">Archived goals & tasks</a>
+<br>
 Calendar module
 <br><br>
 <font size=2><a href=""><< 2015</a> <a href="">< March</a> 2016 <a href="">May ></a> <a href="">2017 >></a></font>
@@ -96,6 +100,19 @@ Calendar module
 			<br />
 			<a href="">Add another element</a><br /><br>
 <input type=radio id="Private" /><b>Private</b>
+<br><br>
+<input type=radio id="Next actions" />Next actions <a href="">Edit</a> <a href="">Delete</a><br />
+			<br />
+			<input type=radio id="Waiting for" />Waiting for <a href="">Edit</a> <a href="">Delete</a><br />
+			<br />
+			<input type=radio id="Reference / Archive" />Reference / Archive <a href="">Edit</a> <a href="">Delete</a><br />
+			<br />
+			<input type=radio id="Some day / Maybe" />Some day / Maybe <a href="">Edit</a> <a href="">Delete</a><br />
+			<br />
+			<input type=radio id="Completed" />Completed <a href="">Edit</a> <a href="">Delete</a><br />
+			<br />
+			<a href="">Add another element</a><br /><br>
+<input type=radio id="Non profit" /><b>Non profit</b>
 <br><br>
 <input type=radio id="Next actions" />Next actions <a href="">Edit</a> <a href="">Delete</a><br />
 			<br />

@@ -65,7 +65,11 @@ $(document).ready(function(){
 <br>
 <a href="">This year</a>
 <br>
-<a href="">All goals & tasks</a>
+<a href="">All active goals & tasks</a>
+<br>
+<a href="">Completed goals & tasks</a>
+<br>
+<a href="">Archived goals & tasks</a>
 <br><br>
 Calendar module
 <br><br>
