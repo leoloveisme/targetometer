@@ -1,11 +1,17 @@
 <html>
 <head>
 	<title></title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("a").click(function(){
+        $("span").toggle();
+    });
+});
+</script>
 </head>
 <body>
 <p><a name="top"></a> <?php include ("header.php"); ?></p>
-
-<p>&nbsp;</p>
 
 <p>&nbsp;</p>
 
@@ -22,45 +28,50 @@
 	<tbody>
 		<tr>
 			<td width="10%">&nbsp;</td>
-			<td width="90%"><b>Enter your goal | task | target</b><br />
+			<td width="70%"><b>Enter your goal | task | target</b><br />
 			<br />
-			<textarea></textarea> <select name=""><option selected="selected" value="">Today</option><option>This week</option><option>This month</option><option>This year</option><option>Other day</option><option>Other week</option><option>Other month</option><option>Other year</option> </select> <select name=""><option selected="selected" value="">date</option><option>1</option><option>2</option><option>3</option><option>28</option> </select> <select name=""><option selected="selected" value="">hours</option><option>1</option><option>2</option><option>3</option><option>28</option> </select> <select name=""><option selected="selected" value="">minutes</option><option>1</option><option>2</option><option>3</option><option>28</option> </select> <select name=""><option selected="selected" value="">work week number</option><option>1</option><option>15</option><option>23</option><option>36</option><option>47</option><option>52</option> </select> <select name=""><option selected="selected" value="">month</option><option>January</option><option>February</option><option>March</option><option>April</option><option>May</option><option>December</option> </select> <select name=""><option selected="selected" value="">year</option><option>2015</option><option>2016</option><option>2018</option><option>2025</option><option>2050</option><option>2121</option> </select> * (date and time attributes aren&#39;t compulsary)<br />
-			<br />
+			<textarea></textarea> <br><br> <select name=""><option selected="selected" value="">Today</option><option>This week</option><option>This month</option><option>This year</option><option>Other date</option> </select> 
+
+<select name=""><option selected="selected" value="">Day of the week</option><option>Monday</option><option>Tuesday</option><option>Saturday</option><option>Sunday</option> </select> 
+
+<select name=""><option selected="selected" value="">work week number</option><option>1</option><option>15</option><option>23</option><option>36</option><option>47</option><option>52</option> </select> <select name=""><option selected="selected" value="">date</option><option>1</option><option>2</option><option>3</option><option>28</option> </select> <select name=""><option selected="selected" value="">month</option><option>January</option><option>February</option><option>March</option><option>April</option><option>May</option><option>December</option> </select> <select name=""><option selected="selected" value="">year</option><option>2015</option><option>2016</option><option>2018</option><option>2025</option><option>2050</option><option>2121</option> </select> <select name=""><option selected="selected" value="">hours</option><option>1</option><option>2</option><option>3</option><option>28</option> </select> <select name=""><option selected="selected" value="">minutes</option><option>1</option><option>2</option><option>3</option><option>28</option> </select> 
+<br><br>* (date and time attributes aren&#39;t compulsary)<br /><br /> // This module will get today's day, date, work week number, year and current time
+			<br /><br />
 <a href="">Add note</a>
 <br><br>
-			<button>+</button><br />
+			Tag: <button>+</button><br />
 			<br />
 			<button>Save</button></td>
+<td width="20%">&nbsp;</td>
 		</tr>
 	</tbody>
 </table>
 
 <p>&nbsp;</p>
 
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
-
 <hr width="100%" />
-<p>&nbsp;</p>
 
 <p>&nbsp;</p>
 
-<table border="0" width="100%">
+<table width="100%">
 	<tbody>
 		<tr>
 			<td width="20%" valign=top>
-Today
+<a href="">Today</a>
 <br>
-This week
+<a href="">This week</a>
 <br>
-This month
+<a href="">This month</a>
 <br>
-This year
+<a href="">This year</a>
 <br>
-All goals & tasks
+<a href="">All goals & tasks</a>
 <br><br>
 Calendar module
+<br><br>
+<font size=2><a href=""><< 2015</a> <a href="">< March</a> 2016 <a href="">May ></a> <a href="">2017 >></a></font>
+<br><br>
+<center><img src="images/calendar.png"></center>
 </td>
 			
 
@@ -68,17 +79,9 @@ Calendar module
 <td valign="top" width="37%"><b>Drag and dropable calendar</b> (where you can drop your targets into) <a href="">Expand</a><br />
 			&nbsp;
 			<hr width="100%" /><br />
-			Today&#39;s<br />
-			Weekly<br />
-			Monthly<br />
-			Yearly<br />
-			<br />
-			<a href="">Collapse</a><br />
-			&nbsp;
-			<hr width="100%" /><br />
 			<b>Eisenhower quadrant</b> <a href="">Expand</a><br />
 			&nbsp;
-			<hr width="100%" /> <b>GTD</b> <a href="">Expand</a><br />
+<hr width="100%" /> <b>GTD</b> <a href="">Expand</a><br />
 			&nbsp;
 			<hr width="100%" /> <b>Roles tasks</b> <a href="">Collapse</a><br />
 			<br />
@@ -122,7 +125,7 @@ Calendar module
 
 <td valign="top" width="49%"><b>Goals</b><br />
 			<br />
-			<select name=""><option selected="selected" value="">Today</option><option>This week</option><option>This month</option><option>This year</option><option>Other day</option><option>Other week</option><option>Other month</option><option>Other year</option><option>Completed</option> </select> <select name=""><option selected="selected" value="">hours</option><option>1</option><option>2</option><option>3</option><option>28</option> </select> <select name=""><option selected="selected" value="">minutes</option><option>1</option><option>2</option><option>3</option><option>28</option> </select> <select name=""><option selected="selected" value="">date</option><option>1</option><option>2</option><option>3</option><option>28</option> </select> <select name=""><option selected="selected" value="">work week number</option><option>1</option><option>15</option><option>23</option><option>36</option><option>47</option><option>52</option> </select> <select name=""><option selected="selected" value="">month</option><option>January</option><option>February</option><option>March</option><option>April</option><option>May</option><option>December</option> </select> <select name=""><option selected="selected" value="">year</option><option>2015</option><option>2016</option><option>2018</option><option>2025</option><option>2050</option><option>2121</option> </select><br />
+			<select name=""><option selected="selected" value="">Today</option><option>This week</option><option>This month</option><option>This year</option><option>Other day</option><option>Other week</option><option>Other month</option><option>Other year</option><option>Completed</option> </select> <select name=""><option selected="selected" value="">date</option><option>1</option><option>2</option><option>3</option><option>28</option> </select> <select name=""><option selected="selected" value="">work week number</option><option>1</option><option>15</option><option>23</option><option>36</option><option>47</option><option>52</option> </select> <select name=""><option selected="selected" value="">month</option><option>January</option><option>February</option><option>March</option><option>April</option><option>May</option><option>December</option> </select> <select name=""><option selected="selected" value="">year</option><option>2015</option><option>2016</option><option>2018</option><option>2025</option><option>2050</option><option>2121</option> </select> <select name=""><option selected="selected" value="">hours</option><option>1</option><option>2</option><option>3</option><option>28</option> </select> <select name=""><option selected="selected" value="">minutes</option><option>1</option><option>2</option><option>3</option><option>28</option> </select><br />
 			<br />
 			1. Meet up with Mr. X <a href="">Edit</a> <a href="">Complete | Archive</a><br />
 			<br />
