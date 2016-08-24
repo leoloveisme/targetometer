@@ -1,7 +1,11 @@
 <html>
 <head>
-	<title></title>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+		<title></title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> 
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	</head>
 <script>
 $(document).ready(function(){
     $("a").click(function(){
@@ -27,7 +31,7 @@ $(document).ready(function(){
 <table width="100%">
 	<tbody>
 		<tr>
-			<td width="10%">&nbsp;</td>
+			<td width="20%">&nbsp;</td>
 			<td width="70%"><b>Enter your goal | task | target</b><br />
 			<br />
 			<textarea></textarea> <br><br> <select name=""><option selected="selected" value="">Today</option><option>This week</option><option>This month</option><option>This year</option><option>Other date</option> </select> 
@@ -42,7 +46,7 @@ $(document).ready(function(){
 			Tag: <button>+</button><br />
 			<br />
 			<button>Save</button></td>
-<td width="20%">&nbsp;</td>
+<td width="10%">&nbsp;</td>
 		</tr>
 	</tbody>
 </table>
